@@ -1,5 +1,5 @@
-export PATH=/usr/local/bin:/Applications/Cloud9.app/Contents/installs/c9local/bin:$PATH
-alias proj='cd /Volumes/Data/Projects'
+export PATH=/usr/local/share/python:/usr/local/bin:/Applications/Cloud9.app/Contents/installs/c9local/bin:$PATH
+alias proj='cd ~/Projects'
 eval "$(hub alias -s)"
 
 # Set git autocompletion and PS1 integration
@@ -18,14 +18,14 @@ PS1='\w\[\033[31m\]$(__git_ps1)\[\033[00m\]> '
 
 
 # MacPorts Installer addition on 2010-12-26_at_22:02:46: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/Library/Frameworks/Python.Framework/Versions/Current/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/bin:$PATH
+#export PATH=/Library/Frameworks/Python.Framework/Versions/Current/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/bin:$PATH
 #export PATH=/opt/local/bin:/opt/local/sbin:/opt/local/Library/Frameworks/Python.Framework/Versions/Current/bin:$PATH
 
 # Finished adapting your PATH environment variable for use with MacPorts.
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/
 
 # MacPorts Installer addition on 2011-04-28_at_02:22:41: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/Library/Frameworks/Python.Framework/Versions/Current/bin:/Volumes/Data/jython/bin:$PATH
+#export PATH=/Library/Frameworks/Python.Framework/Versions/Current/bin:/Volumes/Data/jython/bin:$PATH
 # export PATH=/Volumes/Data/opt/local/bin:/Volumes/Data/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
@@ -78,5 +78,5 @@ done
 
 # Setting PATH for Python 2.7
 # The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+#PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
