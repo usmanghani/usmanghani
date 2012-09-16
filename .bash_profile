@@ -1,7 +1,7 @@
 export PATH=/usr/local/share/python:/usr/local/bin:/Applications/Cloud9.app/Contents/installs/c9local/bin:$PATH
 alias proj='cd ~/Projects'
 eval "$(hub alias -s)"
-
+alias crep='grep --color=auto'
 # Set git autocompletion and PS1 integration
 if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
   . /usr/local/git/contrib/completion/git-completion.bash
