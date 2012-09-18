@@ -1,0 +1,1 @@
+matchit.vmb: call delete('/Users/usmanghani/.vim/doc/supertab.txt')|call delete('/Users/usmanghani/.vim/plugin/supertab.vim')
